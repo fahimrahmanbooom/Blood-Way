@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5BF6E318E362E0AF9FF7A55 /* Pods_Blood_Way.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8476B58355B8451BC8D87398 /* Pods_Blood_Way.framework */; };
+		FF03F74223C6F408003E1554 /* UnderlineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF03F74123C6F408003E1554 /* UnderlineTextField.swift */; };
+		FFC6C73223C48BC80005B6BD /* LoginRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC6C73123C48BC80005B6BD /* LoginRequestModel.swift */; };
+		FFC6C73423C48ED50005B6BD /* SignUpRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC6C73323C48ED50005B6BD /* SignUpRequestModel.swift */; };
+		FFC6C73923C629430005B6BD /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC6C73823C629430005B6BD /* MenuViewController.swift */; };
+		FFD5055423C310B10007DB49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD5055323C310B10007DB49 /* AppDelegate.swift */; };
+		FFD5055623C310B10007DB49 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD5055523C310B10007DB49 /* SceneDelegate.swift */; };
+		FFD5055B23C310B10007DB49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFD5055923C310B10007DB49 /* Main.storyboard */; };
+		FFD5055D23C310B20007DB49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFD5055C23C310B20007DB49 /* Assets.xcassets */; };
+		FFD5056023C310B20007DB49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFD5055E23C310B20007DB49 /* LaunchScreen.storyboard */; };
+		FFD5056C23C3120F0007DB49 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD5056B23C3120F0007DB49 /* AuthViewController.swift */; };
+		FFD5056E23C31B540007DB49 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD5056D23C31B540007DB49 /* LoginViewController.swift */; };
+		FFD5057023C31BAE0007DB49 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD5056F23C31BAE0007DB49 /* SignUpViewController.swift */; };
+		FFD5057523C332810007DB49 /* LoginResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD5057423C332810007DB49 /* LoginResponseModel.swift */; };
+		FFF798F123C3BA89000C448F /* SignUpResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF798F023C3BA89000C448F /* SignUpResponseModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		30F4D5D1A7CAF1F6E0A3B199 /* Pods-Blood Way.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blood Way.release.xcconfig"; path = "Pods/Target Support Files/Pods-Blood Way/Pods-Blood Way.release.xcconfig"; sourceTree = "<group>"; };
+		80D1C3C41EA064DFF503E599 /* Pods-Blood Way.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blood Way.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Blood Way/Pods-Blood Way.debug.xcconfig"; sourceTree = "<group>"; };
+		8476B58355B8451BC8D87398 /* Pods_Blood_Way.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Blood_Way.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF03F74123C6F408003E1554 /* UnderlineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderlineTextField.swift; sourceTree = "<group>"; };
+		FFC6C73123C48BC80005B6BD /* LoginRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequestModel.swift; sourceTree = "<group>"; };
+		FFC6C73323C48ED50005B6BD /* SignUpRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpRequestModel.swift; sourceTree = "<group>"; };
+		FFC6C73823C629430005B6BD /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		FFD5055023C310B10007DB49 /* Blood Way.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blood Way.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFD5055323C310B10007DB49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFD5055523C310B10007DB49 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FFD5055A23C310B10007DB49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFD5055C23C310B20007DB49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFD5055F23C310B20007DB49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFD5056123C310B20007DB49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFD5056B23C3120F0007DB49 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		FFD5056D23C31B540007DB49 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FFD5056F23C31BAE0007DB49 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		FFD5057423C332810007DB49 /* LoginResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponseModel.swift; sourceTree = "<group>"; };
+		FFF798F023C3BA89000C448F /* SignUpResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpResponseModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFD5054D23C310B10007DB49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5BF6E318E362E0AF9FF7A55 /* Pods_Blood_Way.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BD07241A30C3A7608B77963 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				80D1C3C41EA064DFF503E599 /* Pods-Blood Way.debug.xcconfig */,
+				30F4D5D1A7CAF1F6E0A3B199 /* Pods-Blood Way.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CD0A65491B50A53D2EEFDE1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8476B58355B8451BC8D87398 /* Pods_Blood_Way.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FFC6C73523C4947E0005B6BD /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				FFD5057423C332810007DB49 /* LoginResponseModel.swift */,
+				FFC6C73123C48BC80005B6BD /* LoginRequestModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		FFC6C73623C494860005B6BD /* Sign Up */ = {
+			isa = PBXGroup;
+			children = (
+				FFF798F023C3BA89000C448F /* SignUpResponseModel.swift */,
+				FFC6C73323C48ED50005B6BD /* SignUpRequestModel.swift */,
+			);
+			path = "Sign Up";
+			sourceTree = "<group>";
+		};
+		FFC6C73723C629040005B6BD /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				FFC6C73823C629430005B6BD /* MenuViewController.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		FFD5054723C310B10007DB49 = {
+			isa = PBXGroup;
+			children = (
+				FFD5055223C310B10007DB49 /* Blood Way */,
+				FFD5055123C310B10007DB49 /* Products */,
+				1BD07241A30C3A7608B77963 /* Pods */,
+				CD0A65491B50A53D2EEFDE1A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FFD5055123C310B10007DB49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFD5055023C310B10007DB49 /* Blood Way.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFD5055223C310B10007DB49 /* Blood Way */ = {
+			isa = PBXGroup;
+			children = (
+				FFD5056723C3119E0007DB49 /* Model */,
+				FFD5056823C311A60007DB49 /* View */,
+				FFD5056923C311AC0007DB49 /* Controller */,
+				FFD5056A23C311CC0007DB49 /* Support */,
+				FFD5055C23C310B20007DB49 /* Assets.xcassets */,
+				FFD5056123C310B20007DB49 /* Info.plist */,
+			);
+			path = "Blood Way";
+			sourceTree = "<group>";
+		};
+		FFD5056723C3119E0007DB49 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FFC6C73523C4947E0005B6BD /* Login */,
+				FFC6C73623C494860005B6BD /* Sign Up */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FFD5056823C311A60007DB49 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FFD5055923C310B10007DB49 /* Main.storyboard */,
+				FFD5055E23C310B20007DB49 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FFD5056923C311AC0007DB49 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FFD5057223C3323B0007DB49 /* Auth */,
+				FFD5057123C332310007DB49 /* Login */,
+				FFD5057323C332460007DB49 /* SignUp */,
+				FFC6C73723C629040005B6BD /* Menu */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FFD5056A23C311CC0007DB49 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				FFD5055323C310B10007DB49 /* AppDelegate.swift */,
+				FFD5055523C310B10007DB49 /* SceneDelegate.swift */,
+				FF03F74123C6F408003E1554 /* UnderlineTextField.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		FFD5057123C332310007DB49 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				FFD5056D23C31B540007DB49 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		FFD5057223C3323B0007DB49 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				FFD5056B23C3120F0007DB49 /* AuthViewController.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		FFD5057323C332460007DB49 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				FFD5056F23C31BAE0007DB49 /* SignUpViewController.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFD5054F23C310B10007DB49 /* Blood Way */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFD5056423C310B20007DB49 /* Build configuration list for PBXNativeTarget "Blood Way" */;
+			buildPhases = (
+				33D927AE47A8557BA41D7FEC /* [CP] Check Pods Manifest.lock */,
+				FFD5054C23C310B10007DB49 /* Sources */,
+				FFD5054D23C310B10007DB49 /* Frameworks */,
+				FFD5054E23C310B10007DB49 /* Resources */,
+				9C6034E9F10A8E3E51613C4E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Blood Way";
+			productName = "Blood Way";
+			productReference = FFD5055023C310B10007DB49 /* Blood Way.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFD5054823C310B10007DB49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Fahim Rahman";
+				TargetAttributes = {
+					FFD5054F23C310B10007DB49 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = FFD5054B23C310B10007DB49 /* Build configuration list for PBXProject "Blood Way" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFD5054723C310B10007DB49;
+			productRefGroup = FFD5055123C310B10007DB49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFD5054F23C310B10007DB49 /* Blood Way */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFD5054E23C310B10007DB49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFD5056023C310B20007DB49 /* LaunchScreen.storyboard in Resources */,
+				FFD5055D23C310B20007DB49 /* Assets.xcassets in Resources */,
+				FFD5055B23C310B10007DB49 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33D927AE47A8557BA41D7FEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Blood Way-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C6034E9F10A8E3E51613C4E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Blood Way/Pods-Blood Way-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Blood Way/Pods-Blood Way-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFD5054C23C310B10007DB49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF798F123C3BA89000C448F /* SignUpResponseModel.swift in Sources */,
+				FFC6C73923C629430005B6BD /* MenuViewController.swift in Sources */,
+				FFD5056E23C31B540007DB49 /* LoginViewController.swift in Sources */,
+				FFD5055423C310B10007DB49 /* AppDelegate.swift in Sources */,
+				FF03F74223C6F408003E1554 /* UnderlineTextField.swift in Sources */,
+				FFD5056C23C3120F0007DB49 /* AuthViewController.swift in Sources */,
+				FFD5057523C332810007DB49 /* LoginResponseModel.swift in Sources */,
+				FFC6C73223C48BC80005B6BD /* LoginRequestModel.swift in Sources */,
+				FFD5055623C310B10007DB49 /* SceneDelegate.swift in Sources */,
+				FFD5057023C31BAE0007DB49 /* SignUpViewController.swift in Sources */,
+				FFC6C73423C48ED50005B6BD /* SignUpRequestModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FFD5055923C310B10007DB49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFD5055A23C310B10007DB49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFD5055E23C310B20007DB49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFD5055F23C310B20007DB49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFD5056223C310B20007DB49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFD5056323C310B20007DB49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFD5056523C310B20007DB49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80D1C3C41EA064DFF503E599 /* Pods-Blood Way.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4JWUSF25X2;
+				INFOPLIST_FILE = "Blood Way/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fahimrahman.Blood-Way";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FFD5056623C310B20007DB49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30F4D5D1A7CAF1F6E0A3B199 /* Pods-Blood Way.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4JWUSF25X2;
+				INFOPLIST_FILE = "Blood Way/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fahimrahman.Blood-Way";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFD5054B23C310B10007DB49 /* Build configuration list for PBXProject "Blood Way" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFD5056223C310B20007DB49 /* Debug */,
+				FFD5056323C310B20007DB49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFD5056423C310B20007DB49 /* Build configuration list for PBXNativeTarget "Blood Way" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFD5056523C310B20007DB49 /* Debug */,
+				FFD5056623C310B20007DB49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFD5054823C310B10007DB49 /* Project object */;
+}
